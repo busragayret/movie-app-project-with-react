@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+
+.movie-card-group > .row {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.movie-card-group > .row > .col-md-3 {
+  display: inline-block;
+} 
+
+#scrollbar::-webkit-scrollbar
+{
+  height: 10px;
+  background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-track
+{
+box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color: #F5F5F5;
+border-radius: 10px;
+}
+
+
+#scrollbar::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+#scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Atahan{
+  white-space: pre-wrap;
+}
+
+.menu{
+  text-align: end;
+}
+
+.busra{
+  width: 100%;
+  height: 400px;
+  background-image: url("Search-Background.jpg");
+  margin-bottom: 2%;
+}
+
+
+#root{
+  background-color:whitesmoke;
+}
+
+.favIcon{
+  position: inherit;
+  top: 8px;
+}
+
+.loadBtn{
+  margin-left: -4%;
+}
+
+/* .movieBg{
+  width: 100px;
+  height: 500px;
+  background-image: url("movieBg.jpg");
+  margin-bottom: 5%;
+} */
+
+.about{
+  width: 100%;
+  height: 500px;
+  background-image: url("movieBg.jpg");
+}
